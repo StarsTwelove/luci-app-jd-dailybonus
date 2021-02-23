@@ -10,7 +10,7 @@ jobs:
     env:
       URL: https://downloads.openwrt.org/releases/19.07.6/targets/ramips/mt7620/openwrt-sdk-19.07.6-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz
       REPF: ${{ github.repository }}
-      PKGN: ${{ 'luci-app-clash' }}
+      PKGN: ${{ 'luci-app-jd-dailybonus' }}
 
     steps:
     - name: Checkout - ${{ github.ref }}
