@@ -3,7 +3,7 @@ on:
     branches: 
       - test
 
-name: luci-app-clash
+name: luci-app-jd-dailybonus
 jobs:
   build:
     runs-on: ubuntu-latest
